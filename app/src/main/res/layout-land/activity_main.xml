@@ -81,7 +81,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="2">
@@ -91,6 +91,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/notes" />
 
-    </LinearLayout>
+        <TextView
+            android:id="@+id/description"
+            style="@style/description"
+            android:text="@string/main" />
+
+    </RelativeLayout>
 
 </LinearLayout>
