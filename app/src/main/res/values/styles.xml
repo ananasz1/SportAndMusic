@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="iconsSport">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/sport_margin</item>
+    </style>
+
+    <style name="iconsTop">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/icon_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/icon_margin_bottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="iconsBottom">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/icon_margin_bottom</item>
+    </style>
+
+    <style name="icons">
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:layout_height">@dimen/icon_height</item>
+    </style>
+
+    <style name="timer">
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:layout_height">@dimen/icon_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="sportIcon">
+        <item name="android:layout_width">@dimen/sport_icon</item>
+        <item name="android:layout_height">@dimen/sport_icon</item>
+    </style>
+
+    <style name="view">
+        <item name="android:layout_width">@dimen/view_width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="backgroundImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:alpha">0.3</item>
+    </style>
+
+    <style name="description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/text_background</item>
+        <item name="android:padding">@dimen/description_padding</item>
+        <item name="android:layout_margin">@dimen/description_margin</item>
+        <item name="android:textSize">@dimen/description_text</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="mainText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/main_text_margin_top</item>
+        <item name="android:textSize">@dimen/main_text</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:text">@string/main_text</item>
+    </style>
+
+</resources>

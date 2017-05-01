@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whole_background"
+    tools:context="com.example.vikischmideg.sportandmusic.LibraryActivity">
+
+    <ListView
+        android:id="@+id/list_playlists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        style="@style/description"
+        android:text="@string/list" />
+
+
+    <LinearLayout style="@style/iconsBottom">
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/icons"
+            android:src="@drawable/home" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/nowPlaying"
+            style="@style/icons"
+            android:src="@drawable/nowplaying" />
+    </LinearLayout>
+
+</RelativeLayout>

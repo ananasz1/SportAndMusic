@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whole_background"
+    tools:context="com.example.vikischmideg.sportandmusic.RunActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/backgroundImage"
+        android:src="@drawable/notes" />
+
+    <LinearLayout
+        android:id="@+id/navigate"
+        style="@style/iconsTop">
+
+        <ImageView
+            android:id="@+id/random"
+            style="@style/icons"
+            android:src="@drawable/random" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/previous"
+            style="@style/icons"
+            android:src="@drawable/previous" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/pause"
+            style="@style/icons"
+            android:src="@drawable/pause" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/next"
+            style="@style/icons"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/iconsTop"
+        android:layout_below="@id/navigate">
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/add" />
+
+        <View style="@style/view"></View>
+
+        <ImageView
+            style="@style/icons"
+            android:src="@drawable/settings" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/description"
+        android:text="@string/now_playing" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        style="@style/iconsBottom">
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/icons"
+            android:src="@drawable/home" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/list"
+            style="@style/icons"
+            android:src="@drawable/list" />
+    </LinearLayout>
+
+</RelativeLayout>

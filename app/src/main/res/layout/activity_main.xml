@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whole_background"
+    tools:context="com.example.vikischmideg.sportandmusic.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/notes" />
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/mainText" />
+
+    <LinearLayout
+        style="@style/iconsSport"
+        android:layout_below="@+id/question">
+
+        <ImageView
+            android:id="@+id/run"
+            style="@style/sportIcon"
+            android:src="@drawable/run" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/gym"
+            style="@style/sportIcon"
+            android:src="@drawable/gymnastics" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/yoga"
+            style="@style/sportIcon"
+            android:src="@drawable/yoga" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/description"
+        android:text="@string/main" />
+
+    <LinearLayout style="@style/iconsBottom">
+
+        <ImageView
+            android:id="@+id/list"
+            style="@style/icons"
+            android:src="@drawable/list" />
+
+        <View style="@style/view" />
+
+        <ImageView
+            android:id="@+id/nowPlaying"
+            style="@style/icons"
+            android:src="@drawable/nowplaying" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whole_background"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Choose activity:"
+            android:textColor="#111111"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/run"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/run" />
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/gym"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/gymnastics" />
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/yoga"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/yoga" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="24dp">
+
+            <ImageView
+                android:id="@+id/list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/list" />
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/nowPlaying"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/nowplaying" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/notes" />
+
+    </LinearLayout>
+
+</LinearLayout>
